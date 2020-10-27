@@ -1,12 +1,12 @@
 **Instructions**
 
-1. On Line:25 inside of `serveless.yml` replace `AWS_ACCOUNT_NUMBER` and `LAYER_VERSION` with correct values
+1. On `Line:25` inside of `serveless.yml` replace `AWS_ACCOUNT_NUMBER` and `LAYER_VERSION` with correct values
 2. Run `build`
 3. Run `serverless deploy`
 
 `Scheduled` function will be executed every 10 minutes. 
 
-`Hello` function can be exeuted from AWS Console, or using AWS Command Line interface:
+`Hello` function can be executed from AWS Console, or using AWS Command Line interface:
 
 `aws lambda invoke --function-name csharp-dev-hello result.json`
 
