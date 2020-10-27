@@ -14,4 +14,4 @@ Check the `result.json` file to see response.
 
 Check `CloudWatch` for functions logs.
 
-Normally you would want to have layers and functions separated into 2 stacks. For the sake of simplicity this examples containes both in a single stack. 
+Normally you would want to have layers and functions separated into 2 stacks. For the sake of simplicity this examples contains both in a single stack. 
